@@ -13,6 +13,7 @@ namespace api.Data
         {
             
         }
+        public DbSet<Book> Book{get;set;}
         
     }
 }
